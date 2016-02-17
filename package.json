@@ -1,0 +1,11 @@
+{
+  "name": "folder-maker",
+  "version": "1.0.0",
+  "description": "This is a program which can make folders based upon .txt file input",
+  "main": "folderMaker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
