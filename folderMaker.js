@@ -36,16 +36,20 @@ lineSplit = function(folderStructure){
     }
 
 
-}
+};
 
 folderMake = function(newLine){
     for(var prop in newLine){
-        var folderFile = {name:"", ff:""};
-        folderFile.name = newLine[prop];
-            if(folderFile.name.indexOf(".") != -1)
+        if(newLine.hasOwnProperty(prop)) {
+
+            var folderFile = {name: "", ff: ""};
+            folderFile.name = newLine[prop];
+            if (folderFile.name.indexOf(".") != -1)
                 folderFile.ff = "file";
             else
                 folderFile.ff = "folder";
 
+
+        }
     }
-}
+};
