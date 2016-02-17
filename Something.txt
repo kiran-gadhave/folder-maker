@@ -1,0 +1,13 @@
+public
+--source
+----js
+------custom.js
+----css
+------stylesheet.css
+--dist
+----js
+------custom.min.js
+----css
+------bootstrap
+--------bootstrap.min.css
+------stylesheet.min.css
